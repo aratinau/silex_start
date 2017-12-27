@@ -80,3 +80,8 @@ Internationalisation
 --------------------
 
  - https://silex.symfony.com/doc/2.0/providers/translation.html
+
+Formation
+---------
+
+https://silex.symfony.com/doc/2.0/providers/service_controller.html
