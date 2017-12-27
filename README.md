@@ -34,8 +34,8 @@ a la fin du tuto : push pour avoir un projet de base
 MEP
 ===
 
-``` bash
-composer install --no-dev```
+` bash
+composer install --no-dev`
 
 - modifier dans web/app/php $env = 'prod';
 
