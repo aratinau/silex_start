@@ -19,6 +19,8 @@ TODO
 
 a la fin du tuto : push pour avoir un projet de base
 
+- script d'install
+
 - fichier d'install
 	- qui configure le fichier de config
 	- install de la database
