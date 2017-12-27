@@ -19,7 +19,15 @@ TODO
 
 a la fin du tuto : push pour avoir un projet de base
 
-- script d'install
+- script d'install du projet :
+	- choix du nom du projet pour le namespace
+	- nom dans le phpunit.xml.dist
+	- supprime les logs
+	- choix du nom du fichier de log
+	- nom de la database
+	- titre du projet pour layout.html.twig
+	- installe les vendor
+- script d'install de BDD et autre sur le serveur
 
 - fichier d'install
 	- qui configure le fichier de config
