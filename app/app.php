@@ -73,23 +73,24 @@ $app->before(function (Request $request) {
         $request->request->replace(is_array($data) ? $data : array());
     }
 });
-// Register error handler
-/* MISE EN PROD
-$app->error(function (\Exception $e, Request $request, $code) use ($app) {
-    switch ($code) {
-        case 403:
-            $message = 'Access denied.';
-            break;
-        case 404:
-            $message = 'The requested resource could not be found.';
-            break;
-        default:
-            $message = "Something went wrong.";
-    }
-    return $app['twig']->render('error.html.twig', array('message' => $message));
-});
-*/
 
+// Register error handler
+if ($env == 'prod')
+{
+    $app->error(function (\Exception $e, Request $request, $code) use ($app) {
+        switch ($code) {
+            case 403:
+                $message = 'Access denied.';
+                break;
+            case 404:
+                $message = 'The requested resource could not be found.';
+                break;
+            default:
+                $message = "Something went wrong.";
+        }
+        return $app['twig']->render('error.html.twig', array('message' => $message));
+    });
+}
 
 // Register services.
 $app['dao.article'] = function ($app) {
