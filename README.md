@@ -84,4 +84,4 @@ Internationalisation
 Formation
 ---------
 
-https://silex.symfony.com/doc/2.0/providers/service_controller.html
+https://silex.symfony.com/doc/2.0/
