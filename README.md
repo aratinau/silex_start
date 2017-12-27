@@ -27,6 +27,7 @@ a la fin du tuto : push pour avoir un projet de base
 	- nom de la database
 	- titre du projet pour layout.html.twig
 	- installe les vendor
+	- dossier .git
 - script d'install de BDD et autre sur le serveur
 
 - fichier d'install
