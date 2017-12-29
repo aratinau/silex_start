@@ -13,6 +13,10 @@ APP
 - API utilisant le format JSON ;
 - validation des formulaires.
 
+DOC
+===
+
+`/Applications/MAMP/htdocs/autocollants/vendor/silex/silex/doc`
 
 TODO
 ====
